@@ -942,6 +942,19 @@
             transform: translateY(-5px);
         }
 
+        .floating-cta {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 999;
+            display: none;
+        }
+
+        .floating-cta .btn-cta {
+            padding: 0.9rem 1.4rem;
+            font-size: 0.92rem;
+        }
+
         /* Conversion Bar */
         .conversion-bar {
             position: fixed;
@@ -1014,6 +1027,16 @@
             transform: scale(1.08);
         }
 
+        @media (max-width: 991px) {
+            .floating-cta {
+                display: block;
+            }
+
+            .conversion-bar {
+                display: none !important;
+            }
+        }
+
         /* Responsive */
         @media (max-width: 991px) {
             .hero-section {
@@ -1022,17 +1045,21 @@
             }
 
             .hero-title {
-                font-size: 2.6rem;
+                font-size: 2.5rem;
             }
 
             .hero-subtitle {
-                font-size: 1.2rem;
+                font-size: 1.3rem;
             }
 
-            .hero-description,
-            .hero-note {
+            .hero-description {
+                max-width: 100%;
                 margin-left: auto;
                 margin-right: auto;
+            }
+
+            .hero-note {
+                max-width: 100%;
             }
 
             .book-container {
@@ -1044,7 +1071,15 @@
             }
 
             section {
-                padding: 75px 0;
+                padding: 70px 0;
+            }
+
+            .not-box {
+                flex-direction: column;
+            }
+
+            .investment-card {
+                padding: 2rem;
             }
 
             .club-title {
@@ -1058,31 +1093,80 @@
             }
 
             .hero-subtitle {
-                font-size: 1.05rem;
+                font-size: 1.1rem;
             }
 
-            .hero-description {
-                font-size: 1rem;
+            .book-image {
+                max-width: 320px;
             }
 
             .section-title {
-                font-size: 1.7rem;
+                font-size: 1.75rem;
             }
 
             .btn-cta {
-                width: 100%;
-                justify-content: center;
+                padding: 0.9rem 1.5rem;
+                font-size: 0.9rem;
             }
 
-            .theme-grid,
-            .development-grid,
-            .club-grid {
-                grid-template-columns: 1fr;
+            .author-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 50px;
+                height: 50px;
+                font-size: 1.3rem;
+            }
+
+            .conversion-bar {
+                padding: 1rem 0;
             }
 
             .conversion-bar-content {
                 flex-direction: column;
                 text-align: center;
+                gap: 1rem;
+            }
+
+            .conversion-bar-text {
+                min-width: 100%;
+            }
+
+            .conversion-bar-text h3 {
+                font-size: 1.1rem;
+            }
+
+            .conversion-bar-text p {
+                font-size: 0.9rem;
+            }
+
+            .conversion-bar-cta {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .conversion-bar .btn-cta {
+                width: 100%;
+                padding: 0.875rem 1.5rem;
+            }
+
+            .club-title {
+                font-size: 1.6rem;
+            }
+
+            .club-subtitle {
+                font-size: 1rem;
+            }
+
+            .club-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .club-cta-box {
+                padding: 2rem 1.5rem;
             }
         }
     </style>
@@ -1655,6 +1739,14 @@
             </p>
         </div>
     </footer>
+
+    <!-- Floating CTA (Mobile) -->
+    <div class="floating-cta">
+        <a href="#investimento" class="btn-cta">
+            <i class="bi bi-cart-check"></i>
+            Participar
+        </a>
+    </div>
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
