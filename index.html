@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Primary Meta Tags -->
+    <title>A Morte é um Dia que Vale a Pena Ser Vivido — Ana Claudia Quintana Arantes | Clube do Livro Psicologia Literária</title>
+    <meta name="title" content="A Morte é um Dia que Vale a Pena Ser Vivido — Ana Claudia Quintana Arantes | Clube do Livro Psicologia Literária">
+    <meta name="description" content="Uma leitura sobre finitude, escolhas, relações e tudo aquilo que realmente sustenta uma vida. Participe do encontro do Clube do Livro Psicologia Literária.">
+    <meta name="keywords" content="a morte é um dia que vale a pena ser vivido, ana claudia quintana arantes, clube do livro, psicologia literária, psicólogos, terapeutas, cuidados paliativos, finitude">
+    <meta name="author" content="Clube do Livro – Psicologia Literária">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="A Morte é um Dia que Vale a Pena Ser Vivido — Ana Claudia Quintana Arantes | Clube do Livro">
+    <meta property="og:description" content="Uma leitura sobre finitude, escolhas, relações e tudo aquilo que realmente sustenta uma vida.">
+    <meta property="og:image" content="https://www.psicologialiteraria.com.br/a-morte-e-um-dia-que-vale-a-pena-ser-vivido/image/livro.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="A Morte é um Dia que Vale a Pena Ser Vivido — Ana Claudia Quintana Arantes | Clube do Livro">
+    <meta property="twitter:description" content="Uma leitura sobre finitude, escolhas, relações e tudo aquilo que realmente sustenta uma vida.">
+    <meta property="twitter:image" content="https://www.psicologialiteraria.com.br/a-morte-e-um-dia-que-vale-a-pena-ser-vivido/image/livro.webp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="image/logo.png">
+
+    <!-- Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --color-accent: #f8f19d;
+            --color-primary: #2f5a73;
+            --color-dark: #1a3a4a;
+            --color-light: #f8f9fa;
+            --color-text: #333333;
+            --color-coral: #ff8f7a;
+            --color-mint: #7dd3c0;
+            --color-lavender: #a89dd9;
+            --color-peach: #ffd4a3;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--color-text);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* Skip to content link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--color-primary);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+            border-radius: 0 0 4px 0;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+            padding: 1rem 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .navbar-brand img {
+            max-height: 45px;
+            width: auto;
+        }
+
+        .navbar-brand span {
+            font-weight: 600;
+            color: var(--color-primary);
+            font-size: 0.95rem;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: var(--color-primary) !important;
+            margin: 0 0.75rem;
+            transition: var(--transition);
+            position: relative;
+            font-size: 0.95rem;
+        }
+
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link:focus {
+            color: var(--color-dark) !important;
+        }
+
+        /* Destaque especial para link do Clube */
+        .navbar-nav .nav-link[href="#clube"]:hover {
+            color: var(--color-coral) !important;
+            opacity: 0.8;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(47, 90, 115, 0.8)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        /* Hero Section */
+        .hero-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 180px 0 100px;
+            background:
+                radial-gradient(circle at top right, rgba(248, 241, 157, 0.2), transparent 35%),
+                linear-gradient(135deg, var(--color-primary) 0%, var(--color-dark) 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg width='120' height='120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='rgba(240,209,137,0.08)' stroke-width='1'%3E%3Cpath d='M0 60h120M60 0v120'/%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.4;
+        }
+
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            right: -15%;
+            bottom: -20%;
+            width: 520px;
+            height: 520px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(248, 241, 157, 0.18), transparent 70%);
+            filter: blur(20px);
+        }
+
+        .hero-content,
+        .book-container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .book-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(240, 209, 137, 0.16);
+            color: var(--color-accent);
+            padding: 0.55rem 1.25rem;
+            border-radius: 50px;
+            border: 1px solid rgba(240, 209, 137, 0.3);
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-title {
+            font-size: 3.6rem;
+            font-weight: 800;
+            line-height: 1.08;
+            margin-bottom: 0.6rem;
+            letter-spacing: -1px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.45rem;
+            opacity: 0.92;
+            margin-bottom: 1rem;
+        }
+
+        .hero-description {
+            font-size: 1.12rem;
+            max-width: 560px;
+            opacity: 0.96;
+            margin-bottom: 1.75rem;
+        }
+
+        .hero-note {
+            max-width: 540px;
+            background: rgba(240, 209, 137, 0.14);
+            border-left: 4px solid var(--color-accent);
+            border-radius: 0 12px 12px 0;
+            padding: 1rem 1.25rem;
+            margin-bottom: 2rem;
+            font-size: 0.96rem;
+        }
+
+        .btn-cta,
+        .btn-club {
+            background: var(--color-accent);
+            color: var(--color-dark);
+            border: none;
+            border-radius: 50px;
+            font-weight: 700;
+            padding: 1rem 2.3rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: var(--transition);
+            box-shadow: 0 10px 30px rgba(240, 209, 137, 0.3);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-cta:hover,
+        .btn-club:hover {
+            background: #e8c66f;
+            color: var(--color-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 14px 36px rgba(240, 209, 137, 0.38);
+        }
+
+        .book-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .book-stack {
+            position: relative;
+            width: min(100%, 470px);
+        }
+
+        .book-glow {
+            position: absolute;
+            inset: 12% -5%;
+            background: radial-gradient(circle, rgba(240, 209, 137, 0.28), transparent 68%);
+            filter: blur(36px);
+        }
+
+        .book-image {
+            position: relative;
+            z-index: 2;
+            border-radius: 18px;
+            box-shadow: 0 28px 60px rgba(0, 0, 0, 0.3);
+            transform: perspective(1100px) rotateY(-8deg) translateY(0);
+            transition: var(--transition);
+        }
+
+        .book-image:hover {
+            transform: perspective(1100px) rotateY(-2deg) translateY(-6px);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            margin-bottom: 1.25rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            width: 82px;
+            height: 4px;
+            border-radius: 3px;
+            background: linear-gradient(90deg, var(--color-accent), var(--color-coral));
+        }
+
+        .text-center .section-title::after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-lead {
+            font-size: 1.12rem;
+            color: #6c5a50;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Identification Section */
+        .identification-section {
+            background: linear-gradient(to bottom, #fffef5 0%, var(--color-light) 100%);
+        }
+
+        .intro-box {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 14px 40px rgba(47, 90, 115, 0.08);
+            border: 1px solid rgba(47, 90, 115, 0.08);
+            padding: 2.4rem;
+        }
+
+        .intro-impact {
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: var(--color-dark);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .bullet-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+        }
+
+        .bullet-list li {
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        .bullet-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--color-accent);
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        /* Theme Section */
+        .theme-section {
+            background: var(--color-light);
+        }
+
+        .theme-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin: 2.5rem 0;
+        }
+
+        .theme-card {
+            background: linear-gradient(135deg, #fffdf8 0%, #ffffff 100%);
+            padding: 1.6rem;
+            border-radius: 18px;
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid rgba(47, 90, 115, 0.06);
+            box-shadow: 0 8px 24px rgba(47, 90, 115, 0.06);
+        }
+
+        .theme-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 14px 36px rgba(47, 90, 115, 0.12);
+        }
+
+        .theme-card i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .theme-card:nth-child(1) i { color: var(--color-coral); }
+        .theme-card:nth-child(2) i { color: var(--color-primary); }
+        .theme-card:nth-child(3) i { color: var(--color-lavender); }
+        .theme-card:nth-child(4) i { color: var(--color-mint); }
+        .theme-card:nth-child(5) i { color: var(--color-dark); }
+        .theme-card:nth-child(6) i { color: var(--color-peach); }
+        .theme-card:nth-child(7) i { color: var(--color-coral); }
+        .theme-card:nth-child(8) i { color: var(--color-primary); }
+
+        .theme-card h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--color-dark);
+            margin: 0;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, var(--color-accent), var(--color-peach));
+            color: var(--color-dark);
+            padding: 2rem;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 1.15rem;
+            text-align: center;
+            box-shadow: 0 16px 36px rgba(231, 178, 135, 0.25);
+            margin-top: 2rem;
+        }
+
+        /* Development Section */
+        .development-section {
+            background: linear-gradient(to bottom, #fffef5 0%, var(--color-light) 100%);
+        }
+
+        .development-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2.5rem 0;
+        }
+
+        .development-card {
+            background: white;
+            padding: 1.8rem;
+            border-radius: 16px;
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid rgba(47, 90, 115, 0.06);
+            box-shadow: 0 8px 24px rgba(47, 90, 115, 0.06);
+        }
+
+        .development-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 14px 36px rgba(47, 90, 115, 0.12);
+        }
+
+        .development-card i {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            display: block;
+            color: var(--color-primary);
+        }
+
+        .development-card h4 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--color-dark);
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .dev-highlight {
+            background: linear-gradient(135deg, #fffef5 0%, #ffffff 100%);
+            border-left: 4px solid var(--color-accent);
+            border-radius: 0 12px 12px 0;
+            padding: 1.5rem 1.8rem;
+            margin-top: 2.5rem;
+            font-size: 1.05rem;
+            color: var(--color-dark);
+            box-shadow: 0 8px 24px rgba(47, 90, 115, 0.06);
+        }
+
+        /* Literature Section */
+        .literature-section {
+            background: var(--color-light);
+        }
+
+        .literature-panel {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 14px 40px rgba(47, 90, 115, 0.08);
+            border: 1px solid rgba(47, 90, 115, 0.06);
+        }
+
+        .literature-note {
+            background: rgba(240, 209, 137, 0.12);
+            border-left: 4px solid var(--color-accent);
+            border-radius: 0 12px 12px 0;
+            padding: 1rem 1.5rem;
+            margin-top: 2rem;
+            font-weight: 600;
+            color: var(--color-dark);
+            font-size: 1.05rem;
+        }
+
+        .earth-card {
+            background: linear-gradient(135deg, #fffdf8 0%, #ffffff 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 14px 40px rgba(47, 90, 115, 0.08);
+            border: 1px solid rgba(47, 90, 115, 0.06);
+            height: 100%;
+        }
+
+        .earth-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Experience Section */
+        .experience-section {
+            background: linear-gradient(to bottom, #fffef5 0%, var(--color-light) 100%);
+        }
+
+        .experience-list {
+            list-style: none;
+            padding: 0;
+            margin: 2rem 0;
+        }
+
+        .experience-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding: 1rem 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(47, 90, 115, 0.06);
+            border: 1px solid rgba(47, 90, 115, 0.06);
+        }
+
+        .experience-list li i {
+            color: var(--color-primary);
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .experience-list li div {
+            flex: 1;
+        }
+
+        .experience-list li div strong {
+            color: var(--color-primary);
+            font-weight: 700;
+        }
+
+        .not-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .not-item {
+            flex: 1;
+            min-width: 200px;
+            background: white;
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            color: var(--color-dark);
+            border: 1px solid rgba(47, 90, 115, 0.08);
+            box-shadow: 0 4px 12px rgba(47, 90, 115, 0.06);
+        }
+
+        /* For Who Section */
+        .for-who-section {
+            background: var(--color-dark);
+            color: white;
+        }
+
+        .for-who-section .section-title {
+            color: white;
+        }
+
+        .for-who-section .section-lead {
+            color: rgba(255, 255, 255, 0.85);
+        }
+
+        .for-yes-list,
+        .for-no-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .for-yes-list li,
+        .for-no-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+        }
+
+        .for-yes-list li i {
+            color: var(--color-mint);
+            font-size: 1.3rem;
+            margin-top: 0.2rem;
+        }
+
+        .for-no-list li i {
+            color: var(--color-coral);
+            font-size: 1.3rem;
+            margin-top: 0.2rem;
+        }
+
+        .complexity-note {
+            background: rgba(240, 209, 137, 0.12);
+            border-left: 4px solid var(--color-accent);
+            border-radius: 0 12px 12px 0;
+            padding: 1rem 1.5rem;
+            margin-top: 2rem;
+            font-weight: 600;
+        }
+
+        /* Author Section */
+        .author-section {
+            background: linear-gradient(to bottom, #fffef5 0%, var(--color-light) 100%);
+        }
+
+        .author-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 14px 40px rgba(47, 90, 115, 0.08);
+            border: 1px solid rgba(47, 90, 115, 0.06);
+        }
+
+        .author-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(47, 90, 115, 0.08);
+            color: var(--color-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .author-description {
+            font-size: 1.05rem;
+            color: #6c5a50;
+            margin: 0;
+        }
+
+        /* Investment Section */
+        .investment-section {
+            background: var(--color-light);
+        }
+
+        .investment-card {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 14px 40px rgba(47, 90, 115, 0.08);
+            border: 1px solid rgba(47, 90, 115, 0.06);
+        }
+
+        .investment-label {
+            font-size: 0.9rem;
+            color: #888;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+
+        .investment-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .investment-subtitle {
+            color: #6c5a50;
+            margin-bottom: 2rem;
+        }
+
+        .investment-features {
+            list-style: none;
+            padding: 0;
+            margin: 2rem 0;
+        }
+
+        .investment-features li {
+            padding: 1rem 1.5rem;
+            margin-bottom: 0.8rem;
+            background: rgba(47, 90, 115, 0.03);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .investment-features li i {
+            color: var(--color-mint);
+            font-size: 1.3rem;
+        }
+
+        /* Club Section */
+        .club-section {
+            background: linear-gradient(to bottom, #fffef5 0%, var(--color-light) 100%);
+            position: relative;
+        }
+
+        .club-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            background: url("data:image/svg+xml,%3Csvg width='120' height='120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='rgba(240,209,137,0.06)' stroke-width='1'%3E%3Cpath d='M0 60h120M60 0v120'/%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .club-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--color-accent);
+            color: var(--color-dark);
+            padding: 0.55rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+
+        .club-title {
+            font-size: 2.3rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            margin-bottom: 1.25rem;
+        }
+
+        .club-subtitle {
+            font-size: 1.15rem;
+            color: #6c5a50;
+            max-width: 700px;
+            margin: 0 auto 2.5rem;
+        }
+
+        .club-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.8rem;
+            margin: 2.5rem 0;
+        }
+
+        .club-feature {
+            background: white;
+            padding: 2rem;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(47, 90, 115, 0.08);
+            border: 1px solid rgba(47, 90, 115, 0.06);
+            transition: var(--transition);
+            position: relative;
+            z-index: 2;
+        }
+
+        .club-feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 40px rgba(47, 90, 115, 0.12);
+        }
+
+        .club-feature i {
+            font-size: 2.8rem;
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+        }
+
+        .club-feature h4 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--color-dark);
+            margin-bottom: 0.8rem;
+        }
+
+        .club-feature p {
+            font-size: 0.95rem;
+            color: #6c5a50;
+            margin: 0;
+        }
+
+        .club-books-preview {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.7rem;
+            justify-content: center;
+            margin: 1.5rem 0;
+        }
+
+        .club-book-tag {
+            background: rgba(47, 90, 115, 0.08);
+            color: var(--color-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid rgba(47, 90, 115, 0.12);
+        }
+
+        .club-cta-box {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 14px 40px rgba(47, 90, 115, 0.08);
+            border: 1px solid rgba(47, 90, 115, 0.06);
+            position: relative;
+            z-index: 2;
+        }
+
+        .club-cta-box h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+        }
+
+        .club-cta-box p {
+            font-size: 1.05rem;
+            color: #6c5a50;
+            margin-bottom: 1.5rem;
+        }
+
+        .club-benefits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin: 1.5rem 0;
+        }
+
+        .club-benefit {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95rem;
+            color: var(--color-dark);
+        }
+
+        .club-benefit i {
+            color: var(--color-mint);
+            font-size: 1.2rem;
+        }
+
+        /* Final Section */
+        .final-section {
+            background: var(--color-dark);
+            color: white;
+            padding: 120px 0;
+        }
+
+        .final-section .section-title {
+            color: white;
+        }
+
+        .final-text {
+            font-size: 1.15rem;
+            max-width: 760px;
+            margin: 0 auto 1.5rem;
+            opacity: 0.95;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--color-dark);
+            color: white;
+            padding: 3rem 0 2rem;
+            text-align: center;
+            border-top: 1px solid rgba(240, 209, 137, 0.12);
+        }
+
+        footer p {
+            margin: 0;
+            opacity: 0.82;
+            font-size: 0.92rem;
+        }
+
+        footer a {
+            color: var(--color-accent);
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+            width: 56px;
+            height: 56px;
+            border: none;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-dark) 100%);
+            color: white;
+            font-size: 1.45rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 999;
+        }
+
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Conversion Bar */
+        .conversion-bar {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-dark) 100%);
+            color: white;
+            padding: 1.1rem 0;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.25);
+            transform: translateY(100%);
+            opacity: 0;
+            transition: transform 0.45s ease, opacity 0.45s ease;
+            z-index: 998;
+        }
+
+        .conversion-bar.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .conversion-bar-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .conversion-bar-text h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 0 0 0.3rem;
+            color: var(--color-accent);
+        }
+
+        .conversion-bar-text p {
+            margin: 0;
+            opacity: 0.95;
+        }
+
+        .conversion-bar-cta {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .conversion-bar-badge {
+            background: var(--color-accent);
+            color: var(--color-dark);
+            padding: 0.45rem 0.9rem;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+
+        .conversion-bar-close {
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 1.45rem;
+            line-height: 1;
+            padding: 0.4rem;
+            opacity: 0.72;
+            transition: var(--transition);
+        }
+
+        .conversion-bar-close:hover {
+            opacity: 1;
+            transform: scale(1.08);
+        }
+
+        /* Responsive */
+        @media (max-width: 991px) {
+            .hero-section {
+                padding: 140px 0 80px;
+                text-align: center;
+            }
+
+            .hero-title {
+                font-size: 2.6rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+
+            .hero-description,
+            .hero-note {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .book-container {
+                margin-top: 3rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 75px 0;
+            }
+
+            .club-title {
+                font-size: 1.9rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.05rem;
+            }
+
+            .hero-description {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.7rem;
+            }
+
+            .btn-cta {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .theme-grid,
+            .development-grid,
+            .club-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .conversion-bar-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.psicologialiteraria.com.br" target="_blank" rel="noopener noreferrer">
+                <img src="image/logo.png" alt="Clube do Livro Logo">
+                <span>Psicologia Literária</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#identificacao">Por que este livro?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#desenvolvimento">Desenvolvimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiência</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#autora">Autora</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#investimento">Investimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clube" style="color: var(--color-coral) !important; font-weight: 600;">Conhecer o Clube</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="main-content">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content" data-aos="fade-right">
+                    <div class="book-badge">
+                        <i class="bi bi-star-fill"></i>
+                        O livro do mês no Clube do Livro Psicologia Literária
+                    </div>
+                    <h1 class="hero-title">A Morte é um Dia que Vale a Pena Ser Vivido</h1>
+                    <p class="hero-subtitle">Ana Claudia Quintana Arantes</p>
+                    <p class="hero-description">
+                        Uma leitura sobre finitude, escolhas, relações e tudo aquilo que realmente sustenta uma vida.
+                    </p>
+                    <div class="hero-note">
+                        <i class="bi bi-info-circle me-2"></i>
+                        Se você não está no plano anual, ainda pode participar da experiência deste mês adquirindo sua participação de forma avulsa.
+                    </div>
+                    <a href="#investimento" class="btn-cta">
+                        <i class="bi bi-calendar-check"></i>
+                        Quero participar do encontro deste mês
+                    </a>
+                </div>
+                <div class="col-lg-6 book-container" data-aos="fade-left">
+                    <div class="book-stack">
+                        <div class="book-glow"></div>
+                        <img src="image/livro.webp" alt="Capa do livro A Morte é um Dia que Vale a Pena Ser Vivido" class="book-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bloco - Identificação -->
+    <section class="identification-section" id="identificacao">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="intro-box" data-aos="fade-up">
+                        <h2 class="section-title">Talvez você já tenha vivido isso na clínica...</h2>
+                        <div class="intro-impact">
+                            Um paciente fala sobre ansiedade.<br>
+                            Outro chega por causa do relacionamento.<br>
+                            Outro procura terapia porque perdeu alguém.
+                        </div>
+                        <p>Mas, conforme a história aparece, você percebe que existe uma pergunta muito maior atravessando aquele caso:</p>
+                        <ul class="bullet-list">
+                            <li>Como essa pessoa escolheu viver até aqui?</li>
+                            <li>Quais relações realmente sustentam essa vida?</li>
+                            <li>O que ainda faz sentido?</li>
+                        </ul>
+                        <p style="margin-top: 1.5rem;">Na clínica, nem sempre trabalhamos apenas com sintomas.</p>
+                        <p>Trabalhamos com valores, vínculos, perdas, arrependimentos e escolhas.</p>
+                        <p style="margin-top: 1rem;">E existem leituras que ampliam exatamente essa forma de escutar.</p>
+                        <div style="margin-top: 2rem; padding: 1.5rem; background: rgba(47, 90, 115, 0.05); border-radius: 12px; font-weight: 600; color: var(--color-primary);">
+                            <i class="bi bi-book-half me-2" style="color: var(--color-accent);"></i>
+                            O Clube do Livro Psicologia Literária nasce desse encontro entre literatura e experiência humana.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco 1 - Por que A Morte é um Dia que Vale a Pena Ser Vivido? -->
+    <section class="theme-section" id="temas">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title" data-aos="fade-up">Por que A Morte é um Dia que Vale a Pena Ser Vivido?</h2>
+                    <p class="section-lead" data-aos="fade-up" data-aos-delay="100">
+                        Alguns livros falam sobre a morte. Outros ensinam profundamente sobre a vida.
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="150">
+                        <em>A Morte é um Dia que Vale a Pena Viver</em> é um deles.
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="200">
+                        Ana Claudia Quintana Arantes compartilha histórias construídas ao longo de anos acompanhando pacientes em cuidados paliativos e mostra como a consciência da finitude muda completamente aquilo que escolhemos priorizar.
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="250">Ao longo da leitura, somos convidados a refletir sobre temas que atravessam diariamente a clínica:</p>
+
+                    <div class="theme-grid" data-aos="fade-up" data-aos-delay="300">
+                        <article class="theme-card">
+                            <i class="bi bi-hourglass-bottom"></i>
+                            <h4>Finitude</h4>
+                        </article>
+                        <article class="theme-card">
+                            <i class="bi bi-lightbulb"></i>
+                            <h4>Construção de sentido</h4>
+                        </article>
+                        <article class="theme-card">
+                            <i class="bi bi-heart"></i>
+                            <h4>Vínculos</h4>
+                        </article>
+                        <article class="theme-card">
+                            <i class="bi bi-signpost"></i>
+                            <h4>Escolhas</h4>
+                        </article>
+                        <article class="theme-card">
+                            <i class="bi bi-person-hearts"></i>
+                            <h4>Luto</h4>
+                        </article>
+                        <article class="theme-card">
+                            <i class="bi bi-person-check"></i>
+                            <h4>Presença</h4>
+                        </article>
+                        <article class="theme-card">
+                            <i class="bi bi-gem"></i>
+                            <h4>Valores</h4>
+                        </article>
+                        <article class="theme-card">
+                            <i class="bi bi-stars"></i>
+                            <h4>Aquilo que realmente importa quando o tempo deixa de ser uma promessa</h4>
+                        </article>
+                    </div>
+
+                    <div class="highlight-box" data-aos="fade-up" data-aos-delay="350">
+                        É uma leitura delicada, profunda e profundamente humana.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco 2 - O que essa leitura desenvolve em você como terapeuta -->
+    <section class="development-section" id="desenvolvimento">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title" data-aos="fade-up">O que essa leitura desenvolve em você como terapeuta</h2>
+                    <p class="section-lead" data-aos="fade-up" data-aos-delay="100">
+                        Este também não é um livro sobre técnica. Mas ele amplia algo essencial para qualquer psicólogo: a forma como escutamos a experiência humana.
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="150">Durante a leitura, você exercita:</p>
+
+                    <div class="development-grid" data-aos="fade-up" data-aos-delay="200">
+                        <article class="development-card">
+                            <i class="bi bi-hourglass-split"></i>
+                            <h4>Compreender o impacto psicológico da finitude</h4>
+                        </article>
+                        <article class="development-card">
+                            <i class="bi bi-gem"></i>
+                            <h4>Reconhecer valores que sustentam a vida dos pacientes</h4>
+                        </article>
+                        <article class="development-card">
+                            <i class="bi bi-ear"></i>
+                            <h4>Desenvolver uma escuta mais sensível para perdas e despedidas</h4>
+                        </article>
+                        <article class="development-card">
+                            <i class="bi bi-diagram-3"></i>
+                            <h4>Ampliar o olhar para relações, escolhas e construção de sentido</h4>
+                        </article>
+                        <article class="development-card">
+                            <i class="bi bi-shield-check"></i>
+                            <h4>Compreender fatores protetores que muitas vezes passam despercebidos</h4>
+                        </article>
+                        <article class="development-card">
+                            <i class="bi bi-person-heart"></i>
+                            <h4>Fortalecer uma clínica que considera a pessoa para além do diagnóstico</h4>
+                        </article>
+                    </div>
+
+                    <div class="dev-highlight" data-aos="fade-up" data-aos-delay="300">
+                        <p class="mb-0">
+                            <i class="bi bi-stars me-2" style="color: var(--color-coral);"></i>
+                            Porque compreender alguém também passa por compreender aquilo que faz a vida dessa pessoa valer a pena.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco - Por que a literatura forma terapeutas melhores? -->
+    <section class="literature-section" id="literatura">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                    <div class="literature-panel" data-aos="fade-right">
+                        <h2 class="section-title">Por que a literatura forma terapeutas melhores?</h2>
+                        <p class="section-lead">
+                            A literatura nos coloca diante de experiências que dificilmente viveríamos.
+                        </p>
+                        <p>E isso amplia nossa capacidade de compreender pessoas muito diferentes de nós.</p>
+                        <p style="margin-top: 1rem;">Ao acompanhar histórias sobre finitude, cuidado e despedidas, aprendemos a:</p>
+                        <ul class="bullet-list">
+                            <li>Sustentar conversas difíceis sem fugir delas</li>
+                            <li>Reconhecer aquilo que fortalece alguém diante da dor</li>
+                            <li>Compreender como valores orientam decisões importantes</li>
+                            <li>Perceber fatores protetores que muitas vezes sustentam uma vida inteira</li>
+                        </ul>
+                        <div class="literature-note">
+                            <i class="bi bi-stars me-2"></i>
+                            É exatamente esse tipo de olhar que levamos para o consultório.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="earth-card" data-aos="fade-left">
+                        <img src="image/marihorizontal.webp" alt="Imagem complementar do Clube do Livro Psicologia Literária">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco 3 - Como funciona a experiência -->
+    <section class="experience-section" id="experiencia">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title" data-aos="fade-up">Como funciona a experiência</h2>
+
+                    <p class="mb-4" style="font-size: 1.1rem; color: #555;" data-aos="fade-up" data-aos-delay="100">
+                        Ao adquirir este livro, você terá acesso a:
+                    </p>
+
+                    <ul class="experience-list" data-aos="fade-up" data-aos-delay="200">
+                        <li>
+                            <i class="bi bi-broadcast"></i>
+                            <div><strong>Encontro ao vivo</strong> conduzido pela Mariana</div>
+                        </li>
+                        <li>
+                            <i class="bi bi-chat-left-text"></i>
+                            <div><strong>Discussão clínica e literária</strong> da obra</div>
+                        </li>
+                        <li>
+                            <i class="bi bi-lightbulb"></i>
+                            <div><strong>Reflexões sobre finitude</strong>, valores e construção de sentido</div>
+                        </li>
+                        <li>
+                            <i class="bi bi-people"></i>
+                            <div><strong>Espaço seguro de troca</strong> entre profissionais</div>
+                        </li>
+                    </ul>
+
+                    <div class="not-box" data-aos="fade-up" data-aos-delay="300">
+                        <div class="not-item">
+                            <i class="bi bi-x-circle me-2" style="color: var(--color-coral);"></i>
+                            Não é aula
+                        </div>
+                        <div class="not-item">
+                            <i class="bi bi-x-circle me-2" style="color: var(--color-coral);"></i>
+                            Não é análise literária técnica
+                        </div>
+                        <div class="not-item" style="background: linear-gradient(135deg, var(--color-accent), var(--color-peach));">
+                            <i class="bi bi-check-circle me-2" style="color: var(--color-dark);"></i>
+                            É formação pela experiência
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco 4 - Para quem é -->
+    <section class="for-who-section" id="para-quem">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div data-aos="fade-right">
+                        <h3 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 2rem; color: var(--color-accent);">
+                            <i class="bi bi-check-circle me-2"></i>Para quem é
+                        </h3>
+                        <ul class="for-yes-list">
+                            <li>
+                                <i class="bi bi-check-lg"></i>
+                                <span>É psicólogo ou está em formação</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-lg"></i>
+                                <span>Quer ampliar sua escuta clínica para além da técnica</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-lg"></i>
+                                <span>Deseja compreender melhor temas como finitude, perdas, luto e construção de sentido</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-lg"></i>
+                                <span>Busca desenvolver uma clínica mais sensível aos valores e relações humanas</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-lg"></i>
+                                <span>Acredita que literatura também é formação clínica</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-lg"></i>
+                                <span>Quer olhar para seus pacientes de forma ainda mais profunda</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-1 d-none d-lg-block">
+                    <div style="height: 100%; border-left: 1px solid rgba(255,255,255,0.2);"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div data-aos="fade-left">
+                        <h3 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 2rem; color: var(--color-coral);">
+                            <i class="bi bi-x-circle me-2"></i>Para quem não é
+                        </h3>
+                        <ul class="for-no-list">
+                            <li>
+                                <i class="bi bi-x-lg"></i>
+                                <span>Para quem procura um resumo da obra</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-x-lg"></i>
+                                <span>Para quem espera técnicas prontas</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-x-lg"></i>
+                                <span>Para quem busca respostas rápidas para questões complexas</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-x-lg"></i>
+                                <span>Para quem prefere evitar reflexões sobre finitude, perdas e sentido da vida</span>
+                            </li>
+                        </ul>
+                        <div class="complexity-note">
+                            <p><i class="bi bi-lightbulb me-2"></i>Aqui, a proposta é ampliar a forma como enxergamos a experiência humana.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco 6 - Sobre a autora -->
+    <section class="author-section" id="autora">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title" data-aos="fade-up">Sobre a autora</h2>
+
+                    <div class="author-card" data-aos="fade-up" data-aos-delay="100" style="display: flex; gap: 2rem; align-items: center;">
+                        <div style="flex-shrink: 0; width: 200px; height: 200px; border-radius: 50%; overflow: hidden; box-shadow: 0 14px 40px rgba(47, 90, 115, 0.15); border: 4px solid var(--color-accent);">
+                            <img src="image/autoraLivro.webp" alt="Ana Claudia Quintana Arantes" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div style="flex: 1;">
+                            <span class="author-label">
+                                <i class="bi bi-pencil me-1"></i>
+                                Ana Claudia Quintana Arantes
+                            </span>
+                            <p class="author-description" style="margin-bottom: 0;">
+                                Ana Claudia Quintana Arantes é médica geriatra e uma das principais referências brasileiras em cuidados paliativos. Ao longo de sua trajetória, acompanhou centenas de pacientes e famílias em momentos de grande vulnerabilidade. Em <strong>A Morte é um Dia que Vale a Pena Ser Vivido</strong>, compartilha histórias e reflexões que transformam a forma como compreendemos a vida, a morte e aquilo que realmente permanece quando o tempo deixa de ser uma promessa. É um daqueles livros que continuam fazendo perguntas muito depois da última página.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco 7 - Investimento -->
+    <section class="investment-section" id="investimento">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title" data-aos="fade-up">Investimento</h2>
+
+                    <div class="investment-card" data-aos="fade-up" data-aos-delay="100">
+                        <p class="investment-label">Participação avulsa</p>
+                        <h3 class="investment-title">Encontro do mês</h3>
+                        <p class="investment-subtitle">Acesso ao encontro + experiência do mês</p>
+
+                        <ul class="investment-features">
+                            <li>
+                                <i class="bi bi-calendar-event"></i>
+                                Encontro ao vivo com Mariana
+                            </li>
+                            <li>
+                                <i class="bi bi-chat-square-text"></i>
+                                Discussão clínica e literária
+                            </li>
+                            <li>
+                                <i class="bi bi-people-fill"></i>
+                                Espaço de troca entre profissionais
+                            </li>
+                        </ul>
+
+                        <a href="https://pay.hotmart.com/YOUR_LINK_HERE" class="btn-cta" style="width: 100%; justify-content: center;" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-bookmark-check"></i>
+                            Quero participar do encontro deste mês
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Clube do Livro - Conhecer o Clube Completo -->
+    <section class="club-section" id="clube">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="text-center" data-aos="fade-up">
+                        <span class="club-badge">
+                            <i class="bi bi-stars me-2"></i>
+                            Experiência Completa
+                        </span>
+                        <h2 class="club-title">Gostou deste livro? Conheça o Clube do Livro completo!</h2>
+                        <p class="club-subtitle">
+                            A Morte é um Dia que Vale a Pena Ser Vivido é apenas uma das 12 obras transformadoras que vamos explorar em 2026.
+                            Junte-se a mais de 300 psicólogos que estão transformando sua prática clínica através da literatura.
+                        </p>
+                    </div>
+
+                    <div class="club-grid" data-aos="fade-up" data-aos-delay="100">
+                        <div class="club-feature">
+                            <i class="bi bi-calendar3"></i>
+                            <h4>12 Encontros Anuais</h4>
+                            <p>Um por mês, ao vivo, com discussões profundas sobre cada obra</p>
+                        </div>
+                        <div class="club-feature">
+                            <i class="bi bi-files"></i>
+                            <h4>Curadoria Exclusiva</h4>
+                            <p>Livros selecionados a partir de temas reais do consultório</p>
+                        </div>
+                        <div class="club-feature">
+                            <i class="bi bi-people"></i>
+                            <h4>Comunidade Ativa</h4>
+                            <p>Grupo de WhatsApp com trocas diárias entre profissionais</p>
+                        </div>
+                        <div class="club-feature">
+                            <i class="bi bi-gear"></i>
+                            <h4>Oficinas Práticas</h4>
+                            <p>Conceituação cognitiva e questionamento socrático com personagens</p>
+                        </div>
+                        <div class="club-feature">
+                            <i class="bi bi-collection-play"></i>
+                            <h4>Gravações por 2 Anos</h4>
+                            <p>Assiste quando quiser, no seu ritmo e quantas vezes quiser</p>
+                        </div>
+                        <div class="club-feature">
+                            <i class="bi bi-gift"></i>
+                            <h4>Boxs Digitais</h4>
+                            <p>A cada 3 meses, recebe materiais exclusivos para seu desenvolvimento</p>
+                        </div>
+                    </div>
+
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                        <p style="color: #888; margin-bottom: 1rem; font-weight: 500;">
+                            <i class="bi bi-book me-2"></i>
+                            Curadoria 2026 inclui obras de:
+                        </p>
+                        <div class="club-books-preview">
+                            <span class="club-book-tag">Chimamanda Ngozi Adichie</span>
+                            <span class="club-book-tag">Valter Hugo Mãe</span>
+                            <span class="club-book-tag">Carla Madeira</span>
+                            <span class="club-book-tag">Itamar Vieira Junior</span>
+                            <span class="club-book-tag">Margaret Atwood</span>
+                            <span class="club-book-tag">Ana Claudia Quintana Arantes</span>
+                            <span class="club-book-tag">Leon Tolstói</span>
+                            <span class="club-book-tag">José Saramago</span>
+                            <span class="club-book-tag">Jefferson Tenório</span>
+                            <span class="club-book-tag">Cristovão Tezza</span>
+                            <span class="club-book-tag">Rosa Montero</span>
+                        </div>
+                    </div>
+
+                    <div class="club-cta-box" data-aos="fade-up" data-aos-delay="300">
+                        <h3>
+                            <i class="bi bi-lightbulb me-2" style="color: var(--color-accent);"></i>
+                            Formação contínua que transforma sua escuta clínica
+                        </h3>
+                        <p>
+                            Não é apenas um clube de leitura. É um laboratório de habilidades clínicas onde literatura e psicologia se encontram.
+                        </p>
+                        <div class="club-benefits">
+                            <div class="club-benefit">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Economize até 40%</span>
+                            </div>
+                            <div class="club-benefit">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Plano mensal sem compromisso</span>
+                            </div>
+                            <div class="club-benefit">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Cancelamento a qualquer momento</span>
+                            </div>
+                            <div class="club-benefit">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>+300 psicólogos já participam</span>
+                            </div>
+                        </div>
+                        <a href="https://pay.hotmart.com/I103166310C?off=3czaf43a&bid=1764327432994" class="btn-club" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-bookmark-star"></i>
+                            Conhecer o Clube do Livro
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco Final - Fechamento -->
+    <section class="final-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="final-content" data-aos="fade-up">
+                        <h2 class="section-title" style="color: white;">Convite final</h2>
+                        <p class="final-text">
+                            A formação do terapeuta não acontece só em cursos. Ela acontece no encontro entre teoria, literatura e clínica.
+                            <br><br>
+                            <strong>A Morte é um Dia que Vale a Pena Ser Vivido</strong> é um convite a olhar para aquilo que realmente sustenta uma vida — e para as escolhas que fazem sentido quando o tempo deixa de ser uma promessa.
+                        </p>
+                        <p style="font-size: 1.1rem; margin-bottom: 2.5rem; opacity: 0.9;">
+                            Se você quer viver essa experiência com o Clube este mês, essa é a sua oportunidade.
+                        </p>
+                        <a href="#investimento" class="btn-cta">
+                            <i class="bi bi-arrow-right-circle"></i>
+                            Garantir minha vaga neste encontro
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Clube do Livro – Psicologia Literária. Todos os direitos reservados.</p>
+            <p style="margin-top: 0.5rem;">
+                <a href="https://www.psicologialiteraria.com.br" target="_blank" rel="noopener noreferrer">Voltar ao site principal</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Conversion Bar -->
+    <div class="conversion-bar" id="conversionBar">
+        <div class="container">
+            <div class="conversion-bar-content">
+                <div class="conversion-bar-text">
+                    <h3>Não perca essa oportunidade!</h3>
+                    <p>Vagas limitadas para participação avulsa. Garanta agora sua inscrição.</p>
+                </div>
+                <div class="conversion-bar-cta">
+                    <span class="conversion-bar-badge">URGENTE</span>
+                    <a href="#investimento" class="btn-cta">
+                        <i class="bi bi-calendar-check"></i>
+                        Garantir participação
+                    </a>
+                </div>
+                <button class="conversion-bar-close" id="closeConversionBar" aria-label="Fechar barra de oferta">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        // AOS Initialization
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+
+        // Back to Top Button
+        const backToTopBtn = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Conversion Bar Logic
+        const conversionBar = document.getElementById('conversionBar');
+        const closeConversionBarBtn = document.getElementById('closeConversionBar');
+        let conversionBarTimeout;
+        let conversionBarVisible = false;
+
+        // Não mostrar conversion bar em mobile (< 768px)
+        function isMobileDevice() {
+            return window.innerWidth < 768;
+        }
+
+        // Mostrar conversion bar após 8 segundos de inatividade
+        function showConversionBar() {
+            if (!isMobileDevice() && !conversionBarVisible) {
+                conversionBar.classList.add('show');
+                conversionBarVisible = true;
+                document.body.classList.add('conversion-active');
+            }
+        }
+
+        // Resetar timer quando há atividade do usuário
+        function resetConversionBarTimer() {
+            clearTimeout(conversionBarTimeout);
+            if (!conversionBarVisible) {
+                conversionBarTimeout = setTimeout(showConversionBar, 8000);
+            }
+        }
+
+        // Fechar conversion bar
+        closeConversionBarBtn.addEventListener('click', () => {
+            conversionBar.classList.remove('show');
+            conversionBarVisible = false;
+            document.body.classList.remove('conversion-active');
+            // Não mostrar novamente nesta sessão
+            sessionStorage.setItem('conversionBarClosed', 'true');
+        });
+
+        // Verificar se foi fechada nesta sessão
+        if (!sessionStorage.getItem('conversionBarClosed')) {
+            // Iniciar o timer
+            conversionBarTimeout = setTimeout(showConversionBar, 8000);
+
+            // Resetar timer com eventos de atividade
+            document.addEventListener('mousemove', resetConversionBarTimer);
+            document.addEventListener('keypress', resetConversionBarTimer);
+            document.addEventListener('click', resetConversionBarTimer);
+            document.addEventListener('scroll', resetConversionBarTimer);
+        }
+
+        // Verificar responsividade ao redimensionar
+        window.addEventListener('resize', () => {
+            if (isMobileDevice() && conversionBar.classList.contains('show')) {
+                conversionBar.classList.remove('show');
+                conversionBarVisible = false;
+            }
+        });
+    </script>
+</body>
+</html>
